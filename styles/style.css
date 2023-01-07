@@ -11,7 +11,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 35px;
 }
 .sub-container{
     padding: 100px 150px;
@@ -25,6 +25,7 @@ header{
 .head-description{
     text-align: right;
     padding: 0 0 10px 0;
+    color: #757575;
 }
 .btn{
     text-align: right;
@@ -37,3 +38,41 @@ header{
     color: white;
     background-color: rgb(252, 53, 93);
 }
+/* Style Body part */
+.body-container{
+    padding: 20px;
+    display: flex;
+    gap: 87px;
+    justify-content: center;
+    margin-top: 131px;
+    align-items: center;
+    margin: 0 auto;
+}
+.body-title{
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.body-container img{
+    width: 569px;
+    height: 723.3px;
+   
+}
+.body-content1{
+    margin-top: 131px;
+}
+.body-content2{
+    width: 416px;
+    height: 400px;
+    margin-top: 300px; 
+    padding: 100px 150px 0 0; 
+    line-height: 150%;
+}
+.fa-solid{
+    color: aqua;
+}
+.body-content2 p{
+    color: #757575;
+}
+
