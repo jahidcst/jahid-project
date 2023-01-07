@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Work Sens', sans-serif;
 }
 /* Header design */
 header{
@@ -133,4 +133,61 @@ header{
     border-radius: 5px;
     font-weight: 600px;
     margin-top: 10px;
+}
+
+/* The footer styles */
+.the-end{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.left-footer{
+    height: 317px;
+    width: 485px;
+    padding: 100px 250px;
+
+}
+.left-footer h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.left-footer p{
+    line-height: 200%;
+}
+.email{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.phone{
+    margin-bottom: 30px;
+}
+.right-footer{
+    padding-top: 100px;
+    
+}
+.subscribe{
+    display: block;
+    background-color: beige;
+    color: orangered;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600px;
+    margin-top: 10px;
+}
+
+.right-footer p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 200px;
+}
+input{
+    display: block;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 22px;
+    padding: 15px 59px 15px 23px;
 }
