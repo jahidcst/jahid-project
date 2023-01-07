@@ -18,7 +18,7 @@ header{
 }
 .head-title{
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 55px;
     font-weight: 800;
 }
@@ -52,6 +52,7 @@ header{
     font-weight: 700;
     font-size: 35px;
     padding-bottom: 20px;
+    line-height: 100%;
 }
 
 .body-container img{
@@ -76,3 +77,60 @@ header{
     color: #757575;
 }
 
+/* My plans style */
+
+.plans{
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.plan-title{
+    text-align: center;
+    padding: 47px 0;
+    font-size: 25px;
+    font-weight: 300px;  
+}
+.my-plans{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+.my-plans div{
+    padding: 0 85px;
+}
+.my-plans h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.motivate{
+    text-align: left;
+    padding-top: 30px;
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.motivate-title{
+    height: 285px;
+    width: 455px;
+    text-align: left;
+    padding-left: 300px; 
+    font-size: 30px;
+    font-weight: 600px;
+    padding-top: 50px;
+    color: white;
+}
+.call-now{
+    background-color: beige;
+    color: orangered;
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600px;
+    margin-top: 10px;
+}
