@@ -5,13 +5,12 @@
 }
 /* Header design */
 header{
-    width: 1600px;
+    width: 1634px;
     height: 808px;
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-    padding-right: 35px;
 }
 .sub-container{
     padding: 100px 150px;
